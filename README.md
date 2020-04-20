@@ -4,9 +4,10 @@ Weather Station with Arduino using Wemos D1 R1
 # Contents
 - [Equipment](#equipment)
 - [Using Boards Manager](#installing-with-boards-manager)
-- [Documentation](#documentation)
+- [How To Use It?](#documentation)
+  - [Schematic](#Schematic)
+- [Code Explanation](#Code)
 - [Issues and support](#issues-and-support)
-- [Contributing](#contributing)  
 - [License and credits](#license-and-credits)   
 
 # Equipment:
@@ -42,4 +43,11 @@ First you need basic knowledge about C, C++ language. After that you need at lea
 
 Basically, this project built for this equipment, but if you know some thing about this you can change it easily. Because i usually code very beautiful. (Laughing :) No i'm just kidding, i'm terrible)
 
+#### SIM900
+You can try your self by testing other project.
+This is good resource: [Send Receive SMS & Call with SIM900 GSM Shield & Arduino](https://lastminuteengineers.com/sim900-gsm-shield-arduino-tutorial/)
+
 ### Schematic
+
+
+# Code Explanation
