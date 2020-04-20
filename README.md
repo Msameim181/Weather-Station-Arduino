@@ -4,10 +4,11 @@ Weather Station with Arduino using Wemos D1 R1
 # Contents
 - [Equipment](#equipment)
 - [Using Boards Manager](#installing-with-boards-manager)
-- [How To Use It?](#documentation)
+- [How To Use It?](#how-to-use-it)
   - [Schematic](#Schematic)
 - [Code Explanation](#Code)
 - [Issues and support](#issues-and-support)
+- [Resource](#Resource)
 - [License and credits](#license-and-credits)   
 
 # Equipment:
@@ -51,3 +52,6 @@ This is good resource: [Send Receive SMS & Call with SIM900 GSM Shield & Arduino
 
 
 # Code Explanation
+
+
+# Resource
