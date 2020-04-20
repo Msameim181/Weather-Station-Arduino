@@ -37,3 +37,4 @@ Resource: [https://github.com/esp8266/Arduino](https://github.com/esp8266/Arduin
 
 # How To Use It?
 First you need basic knowledge about C, C++ language. After that you need at least 15 tiny wire (like using for Breadboard). Then you need a Sim card, A local WiFi (for Access Point) and an important thing is you need an adaptor to provide exactly 5V and 2A. This is really important for SIM900 module, if you can't provide the adaptor, you wont be able to set this module.
+Basically, this project built for this equipment, but if you know some thing about this you can change it easily. Because i usually code very beautiful. (Laughing :) No i'm just kidding, i'm terrible)
