@@ -35,6 +35,7 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 Boards manager link: `https://arduino.esp8266.com/stable/package_esp8266com_index.json`
 
 Documentation: [https://arduino-esp8266.readthedocs.io/en/2.6.3/](https://arduino-esp8266.readthedocs.io/en/2.6.3/)
+
 Resource: [https://github.com/esp8266/Arduino](https://github.com/esp8266/Arduino)
 
 Also It Can Help: [https://www.instructables.com/id/Programming-the-WeMos-Using-Arduino-SoftwareIDE/](https://www.instructables.com/id/Programming-the-WeMos-Using-Arduino-SoftwareIDE/)
