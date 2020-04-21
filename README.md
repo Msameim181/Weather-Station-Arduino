@@ -47,7 +47,26 @@ Basically, this project built for this equipment, but if you know some thing abo
 
 
 ### Schematic
+You can just use the [Photo]() of Schematic.
 
+##### MicroSD
+- MicroSD(GND)  -> Wemos/UNO(GND)
+- MicroSD(VCC)  -> Wemos/UNO(5V)
+- MicroSD(MISO) -> Wemos/UNO(D12)
+- MicroSD(MOSI) -> Wemos/UNO(D11)
+- MicroSD(SCK)  -> Wemos/UNO(D13)
+- MicroSD(CS)   -> Wemos/UNO(D10)
+
+##### DHT11
+- DHT11(GND)    -> Wemos/UNO(GND)
+- DHT11(VCC)    -> Wemos/UNO(5V)
+- DHT11(DATA)   -> Wemos(GPIO2/D9)/UNO(D2)
+
+##### SIM900
+- SIM900(GND)(Yellow Line)  -> Wemos/UNO(GND)
+- SIM900(GND)(UART)         -> Wemos/UNO(GND)
+- SIM900(RXD)(UART)         -> Wemos(D15)/UNO(D5)
+- SIM900(TXD)(UART)         -> Wemos(D14)/UNO(D4)
 
 # Code Explanation
 
