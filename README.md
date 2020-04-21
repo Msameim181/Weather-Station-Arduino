@@ -1,4 +1,4 @@
-# Weather Station Arduino
+# Weather Station With Arduino
 Weather Station with Arduino using Wemos D1 R1
 
 # Contents
@@ -44,9 +44,7 @@ First you need basic knowledge about C, C++ language. After that you need at lea
 
 Basically, this project built for this equipment, but if you know some thing about this you can change it easily. Because i usually code very beautiful. (Laughing :) No i'm just kidding, i'm terrible)
 
-#### SIM900
-You can try your self by testing other project.
-This is good resource: [Send Receive SMS & Call with SIM900 GSM Shield & Arduino](https://lastminuteengineers.com/sim900-gsm-shield-arduino-tutorial/)
+
 
 ### Schematic
 
@@ -55,3 +53,28 @@ This is good resource: [Send Receive SMS & Call with SIM900 GSM Shield & Arduino
 
 
 # Resource
+You can try your self by testing other project.
+
+##### DHT11-12, MicroSD
+- [Complete Guide for DHT11/DHT22 Humidity and Temperature Sensor With Arduino](https://randomnerdtutorials.com/complete-guide-for-dht11dht22-humidity-and-temperature-sensor-with-arduino/)
+- [SD Card Module Arduino: How to Read/Write Data](https://electropeak.com/learn/sd-card-module-read-write-arduino-tutorial/)
+- [9 Arduino Compatible Temperature Sensors for Your Electronics Projects](https://randomnerdtutorials.com/9-arduino-compatible-temperature-sensors-for-your-electronics-projects/)
+
+##### SIM900
+- [Send Receive SMS & Call with SIM900 GSM Shield & Arduino](https://lastminuteengineers.com/sim900-gsm-shield-arduino-tutorial/)
+- [Guide to SIM900 GSM GPRS Shield with Arduino](https://randomnerdtutorials.com/sim900-gsm-gprs-shield-arduino/)
+- [Request Sensor Data via SMS using Arduino and SIM900 GSM Shield](https://randomnerdtutorials.com/request-sensor-data-sms-arduino-sim900-gsm-shield/#more-61678)
+- [SIM900 SMS and Call Commands](http://www.raviyp.com/sim900-sms-call-commands/)
+
+##### ESP8266, ESP32, Wemos
+- [ESP32 DHT11/DHT22 Web Server – Temperature and Humidity using Arduino IDE](https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-web-server-arduino-ide/)
+- [Smart Door Lock w/ WiFi Login Page by Arduino & ESP8266](https://electropeak.com/learn/smart-door-lock-w-wifi-login-page-by-arduino-esp8266/)
+- [Getting Started NodeMCU ESP8266 on Arduino IDE](https://electropeak.com/learn/nodemcu-esp8266-on-arduino-ide/)
+- [ESP8266WiFi library](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html)
+- [Establishing a Wi-Fi connection](https://tttapa.github.io/ESP8266/Chap07%20-%20Wi-Fi%20Connections.html)
+- [HOW TO USE ESP8266 WIFI MODES: STATION AND ACCESS POINT](http://onlineshouter.com/use-esp8266-wifi-modes-station-access-point/)
+- [A Beginner's Guide to the ESP8266](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html)
+- And of course, the examples in the IDE are the best.
+ 
+ 
+ 
