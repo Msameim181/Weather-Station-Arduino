@@ -8,6 +8,7 @@ Weather Station with Arduino using Wemos D1 R1
   - [Schematic](#Schematic)
   - [Server Side](#Server-side)
 - [Code Explanation](#Code)
+  - [Functions List](#Functions-List)
 - [Resource](#Resource)
 - [License and credits](#license-and-credits)   
 
@@ -76,11 +77,11 @@ You can just use the [Photo](https://github.com/Msameim181/Weather-Station-Ardui
  - And test it.
  
 ### Soft Ware and code
-Use Arduino IDE, open the code file. first Compile it, then Upload it to your board.
+Use Arduino IDE, open the code file. First Compile it, then Upload it to your board.
 
 
 # Code Explanation
-
+A full list of Functions are available in [here]().
 
 # Resource
 You can try your self by testing other project.
