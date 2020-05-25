@@ -10,6 +10,7 @@ Weather Station with Arduino using Wemos D1 R1
 - [Code Explanation](#Code)
   - [Functions List](#Functions-List)
 - [Resource](#Resource)
+- [Issues and support](#Issues-and-support)
 - [License and credits](#license-and-credits)   
 
 # Equipment:
@@ -107,5 +108,9 @@ You can try your self by testing other project.
 - [A Beginner's Guide to the ESP8266](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html)
 - And of course, the examples in the IDE are the best.
  
+# Issues and support
+If you have and problem, Just Ask me or Google.
  
- 
+# License and credits
+MIT License
+Copyright (c) 2020 Mohammad Mahdi Samei
