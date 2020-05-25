@@ -6,8 +6,8 @@ Weather Station with Arduino using Wemos D1 R1
 - [Using Boards Manager](#installing-with-boards-manager)
 - [How To Use It?](#how-to-use-it)
   - [Schematic](#Schematic)
+  - [Server Side](#Server-side)
 - [Code Explanation](#Code)
-- [Issues and support](#issues-and-support)
 - [Resource](#Resource)
 - [License and credits](#license-and-credits)   
 
@@ -46,7 +46,6 @@ First you need basic knowledge about C, C++ language. After that you need at lea
 Basically, this project built for this equipment, but if you know some thing about this you can change it easily. Because i usually code very beautiful. (Laughing :) No i'm just kidding, i'm terrible)
 
 
-
 ### Schematic
 You can just use the [Photo](https://github.com/Msameim181/Weather-Station-Arduino/blob/master/Schematic/Schematic%20Final%20(Sim900)/Schematic%20Final%20(Sim900).jpg) of Schematic.
 
@@ -68,6 +67,17 @@ You can just use the [Photo](https://github.com/Msameim181/Weather-Station-Ardui
 - SIM900(GND)(UART)         -> Wemos/UNO(GND)
 - SIM900(RXD)(UART)         -> Wemos(D15)/UNO(D5)
 - SIM900(TXD)(UART)         -> Wemos(D14)/UNO(D4)
+
+### Server Side
+ - You should run or rent a host servet for this part.
+ - First, create a DataBase and add the table with importiing option (I give you a file 'data.sql' to import the table). 
+ - Then, use the name of DB and your Login info to update the DataBase Connection of a php file named by 'Functions.php'. 
+ - In the end, set the php file in the 'public_html' directory of your server. 
+ - And test it.
+ 
+### Soft Ware and code
+Use Arduino IDE, open the code file. first Compile it, then Upload it to your board.
+
 
 # Code Explanation
 
