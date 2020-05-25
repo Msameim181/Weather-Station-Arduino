@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Station 11</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+        integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous'>
+    <style>
+        #information{
+            /* display: none; */
+        }
+        .simple-grid {
+            margin: 0 auto
+        }
+        .simple-btn {
+            background: #232323;
+            color : #fff
+        }
+        .simple-btn:hover {
+            color : #fff !important
+        }
+        .form-control:focus {
+            color: #495057;
+            background-color: #fff;
+            border-color: #cecece;
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem #d4d4d4
+        }
+        @media (min-width: 650px) {
+            .simple-grid {
+                width : 600px;
+            }
+        }
+        @media (max-width: 650px) {
+            .simple-grid {
+                width: 90%;
+            }
+            #d-table {
+                /* padding-left: 0px; */
+                
+            }
+        }
+        .d-block{
+            font-size: 1.2rem;
+        }
+        i{
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+<body class="simple-grid">
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper">
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    
+                    <div class="row border-bottom py-3">
+                        <h4 class="card-title border-top border-bottom py-3 w-100 text-center">Temperature And Humidity Station</h4>
+                        <small class="card-description">
+                            <b class="d-block mb-2">Description</b>
+                            <div>This page built by PHP for reprsent temperature and humidity that stored in DB.</div>
+                            <div>Also it can show immediately last information without refreshing the page.</div>
+                            <div>But you should refresh page for the list.</div>
+                            <div>This project built with these equipment:</div>
+                            <ul>
+                                <li>DHT11</li>
+                                <li>MicroSD reader</li>
+                                <li>Wemos D1 WiFi board</li>
+                            </ul>
+                            ENJOY IT :)
+                        </small>
+                    </div>
+
+                    <div class="row border-bottom py-3" id="information">
+                        <div class="col-md-12 grid-margin stretch-card">
+                            <div id="context-menu-simple" style="font-size: 1.5rem;">
+                                <b>Last Data:</b>
+                                <div>
+                                    <b class="d-block">
+                                        <i class='fas fa-thermometer-half' style='color:#059e8a;'></i>
+                                        <span>Temperature : </span>
+                                        <span id="temperature">0</span>
+                                        <span>&deg;C</span>
+                                    </b>
+                                    <b class="d-block" style="margin-left: -2px;">
+                                        <i class='fas fa-tint' style='color:#00add6;'></i>
+                                        <span>Humidity : </span>
+                                        <span id="humidity">0</span>
+                                        <span>%</span>
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        setInterval(function () {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('temperature').innerHTML = this.responseText;
+                }
+            };
+            xhttp.open('GET', '/temperature', true);
+            xhttp.send();
+        }, 10000);
+    
+        setInterval(function () {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById('humidity').innerHTML = this.responseText;
+                }
+            };
+            xhttp.open('GET', '/humidity', true);
+            xhttp.send();
+        }, 10000);
+    </script>
+
+</body>
+</html>
