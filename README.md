@@ -114,7 +114,7 @@ You can try your self by testing other project.
 - [SMS Response](https://github.com/Msameim181/Weather-Station-Arduino/blob/master/SMS%20Response.png)
 
 # Issues and support
-If you have and problem, Just Ask me or Google.
+If you have any problem, Just Ask me or Google.
  
 # License and credits
 MIT License
